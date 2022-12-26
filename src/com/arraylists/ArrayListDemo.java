@@ -9,6 +9,6 @@ public class ArrayListDemo {
 		al.add(33);
 		al.add(55);
 		al.add(77);
-		System.out.println(al);
+		al.stream().forEach(x->System.out.println(x));
 	}
 }

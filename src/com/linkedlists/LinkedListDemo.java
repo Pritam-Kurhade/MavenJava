@@ -9,6 +9,6 @@ public class LinkedListDemo {
 		LinkedList<String> ll= new LinkedList<String>();
 		ll.add("aa");
 		ll.add("tt");
-		System.out.println(ll);
+		ll.stream().forEach(y->System.out.println(y));
 	}
 }
