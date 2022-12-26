@@ -5,10 +5,14 @@ import java.util.LinkedList;
 public class LinkedListDemo {
 
 	public static void main(String[] args) {
-		
-		LinkedList<String> ll= new LinkedList<String>();
+
+		LinkedList<String> ll = new LinkedList<String>();
 		ll.add("aa");
 		ll.add("tt");
-		ll.stream().forEach(y->System.out.println(y));
+
+	for(String s:ll){
+       System.out.println(s);
+	}
+
 	}
 }
