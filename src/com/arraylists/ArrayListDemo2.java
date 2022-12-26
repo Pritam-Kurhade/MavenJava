@@ -11,5 +11,6 @@ public class ArrayListDemo2 {
 		al.add(44);
 		al.add(66);
 		al.stream().forEach(z->System.out.println(z));
+		System.out.println("fixed bug 101");
 	}
 }
