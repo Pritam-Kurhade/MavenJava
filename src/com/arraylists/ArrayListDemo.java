@@ -11,6 +11,7 @@ public class ArrayListDemo {
 		al.add(77);
 
 		al.stream().forEach(x->System.out.println(x));
+<<<<<<< HEAD
 		al.add(555);
 		
 		System.out.println(al);
@@ -18,6 +19,11 @@ public class ArrayListDemo {
 		/*
 		 * some random code
 		 */
+=======
+		System.out.println("hello java");
+
+		System.out.println(al);
+>>>>>>> 83ab6551a6fb8146157748c920347f317937f18e
 
 	}
 }
