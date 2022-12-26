@@ -10,5 +10,6 @@ public class ArrayListDemo {
 		al.add(55);
 		al.add(77);
 		al.stream().forEach(x->System.out.println(x));
+		System.out.println("hello java");
 	}
 }
